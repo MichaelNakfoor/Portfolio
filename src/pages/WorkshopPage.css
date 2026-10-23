@@ -1,0 +1,19 @@
+.workshop-hero { padding: 1rem 0 2rem; }
+.workshop-page h1 { font-size: clamp(2.6rem, 6vw, 4.5rem); margin-bottom: 1rem; }
+.workshop-subtitle { font-size: clamp(1.2rem, 2.5vw, 1.65rem); font-weight: 600; }
+.workshop-hero .ea-lead { max-width: 78ch; }
+.workshop-application, .workshop-closing { margin-top: clamp(2.25rem, 4.5vw, 3.75rem); padding-top: 2rem; border-top: 1px solid var(--pf-line); }
+.workshop-page h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin: 0 0 1rem; }
+.workshop-prose, .workshop-closing { max-width: 80ch; }
+.workshop-prose p, .workshop-closing > p:not(.pf-kicker) { color: var(--pf-ink-muted); line-height: 1.7; margin: 0 0 1rem; }
+.workshop-prose { margin-bottom: 2rem; }
+.workshop-hero .ea-lead, .workshop-prose > p, .workshop-closing > p:not(.pf-kicker) { text-wrap: pretty; }
+.workshop-page h1, .workshop-page h2 { text-wrap: balance; }
+.workshop-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: start; }
+.workshop-page [id] { scroll-margin-top: 2rem; }
+@media (max-width: 700px) {
+  .workshop-gallery { grid-template-columns: minmax(0, 1fr); }
+}
+
+.workshop-hero .ea-lead + .ea-lead { margin-top: 1rem; }
+.workshop-page { overflow-wrap: anywhere; }

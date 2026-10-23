@@ -1,0 +1,1103 @@
+{
+  "schemaVersion": 3,
+  "repository": "https://github.com/MichaelNakfoor/Portfolio",
+  "copiedFileCount": 146,
+  "generatedReviewFiles": 2,
+  "publicationFileCount": 148,
+  "requiredPublicAssetCount": 101,
+  "gitHistoryIncluded": false,
+  "metadataCleanup": [
+    {
+      "file": "public/images/ea/ncaa/NCAA 2002/640x480/Press Start.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2002/640x480/Main Menu.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2002/640x480/Team Select.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2002/640x480/Recruiting Map.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2002/640x480/View Rosters.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2003/640x480/Depth Chart.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2006/854x480/Recruiting Map.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2006/854x480/School Budgets.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2007/854x480/Recruiting Board.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/ncaa/NCAA 2007/854x480/Team Select.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/central-ui/2005/Madden_Roster.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/central-ui/2005/Madden_Settings.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/central-ui/2009/Madden_FranchiseSetup.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/central-ui/2009/Madden_Topmenu.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/ea/tiger-woods/Tiger_Woods_08/tw_confidence.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/maestro/history/FlashMLD_Canvas.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/maestro/history/FlashMLD_MailMergeBarcodes.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/maestro/history/HTML5MLD_Canvas.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    },
+    {
+      "file": "public/images/maestro/history/HTML5MLD_MailMergeBarcodes.jpg",
+      "decodedPixelsMatch": true,
+      "dimensionsOrientationColorspaceMatch": true,
+      "compressedImageDataUnchanged": true,
+      "colorManagementSegmentsUnchanged": true
+    }
+  ],
+  "validation": {
+    "installation": "npm ci passed with patched lockfile",
+    "buildAndTypeCheck": "passed",
+    "lint": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "viewportWidths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "routeChecks": 56,
+    "enlargementChecks": 264,
+    "brokenImages": 0,
+    "javascriptExceptions": 0,
+    "horizontalPageOverflow": false,
+    "portrait": {
+      "width": 572,
+      "height": 688,
+      "chunks": [
+        "IHDR",
+        "pHYs",
+        "iCCP",
+        "cHRM",
+        "IDAT",
+        "IEND"
+      ],
+      "provenanceCommit": "4624c45",
+      "sha256": "3ededdc4707898cbda515fe223d15e06a4b3ded9d477bc34781612433ad45023",
+      "measurements": [
+        {
+          "viewport": 1440,
+          "src": "/portrait.png",
+          "naturalWidth": 572,
+          "naturalHeight": 688,
+          "renderedWidth": 280,
+          "renderedHeight": 336.78125,
+          "objectFit": "contain"
+        },
+        {
+          "viewport": 768,
+          "src": "/portrait.png",
+          "naturalWidth": 572,
+          "naturalHeight": 688,
+          "renderedWidth": 360,
+          "renderedHeight": 433,
+          "objectFit": "contain"
+        },
+        {
+          "viewport": 390,
+          "src": "/portrait.png",
+          "naturalWidth": 572,
+          "naturalHeight": 688,
+          "renderedWidth": 330.1875,
+          "renderedHeight": 397.140625,
+          "objectFit": "contain"
+        },
+        {
+          "viewport": 320,
+          "src": "/portrait.png",
+          "naturalWidth": 572,
+          "naturalHeight": 688,
+          "renderedWidth": 260.1875,
+          "renderedHeight": 312.9375,
+          "objectFit": "contain"
+        }
+      ]
+    },
+    "localNavigation": "passed",
+    "qrPayload": "owner-reviewed and confirmed sanitized; approved",
+    "distFileCount": 104,
+    "dependencyAdvisories": {
+      "affectedPackages": 0,
+      "totalVulnerabilities": 0,
+      "productionVulnerabilities": 0,
+      "findings": [],
+      "resolvedFindings": [
+        {
+          "package": "source-map-js",
+          "installed": "1.2.1",
+          "patched": "1.2.2",
+          "severity": "high",
+          "id": "GHSA-68fv-2mgg-jv7q",
+          "title": "Event-loop denial of service through indexed source-map section offsets"
+        },
+        {
+          "package": "vite",
+          "installed": "8.3.1",
+          "patched": "8.3.3",
+          "severity": "moderate",
+          "id": "GHSA-698v-4r3x-3vcv",
+          "title": "launch-editor Windows percent escaping omission"
+        },
+        {
+          "package": "vite",
+          "installed": "8.3.1",
+          "patched": "8.3.3",
+          "severity": "moderate",
+          "id": "GHSA-r825-w8mm-5pxw",
+          "title": "launch-editor CLI flag misinterpretation"
+        },
+        {
+          "package": "vite",
+          "installed": "8.3.1",
+          "patched": "8.3.3",
+          "severity": "high",
+          "id": "GHSA-587h-7wmj-h5pm",
+          "title": "launch-editor Windows existence-check bypass"
+        },
+        {
+          "package": "vite",
+          "installed": "8.3.1",
+          "patched": "8.3.3",
+          "severity": "low",
+          "id": "GHSA-9jrq-w75r-8gcw",
+          "title": "Cross-origin script execution through custom middleware"
+        },
+        {
+          "package": "vite",
+          "installed": "8.3.1",
+          "patched": "8.3.3",
+          "severity": "moderate",
+          "id": "GHSA-rq7h-c2jc-7f22",
+          "title": "Files outside server.fs.allow served for matching system paths"
+        },
+        {
+          "package": "vite",
+          "installed": "8.3.1",
+          "patched": "8.3.3",
+          "severity": "moderate",
+          "id": "GHSA-vfpm-58rq-9qcg",
+          "title": "First four bytes of files outside server.fs exposed through vite-wasm-instance"
+        }
+      ],
+      "installedVersions": {
+        "vite": "8.3.3",
+        "source-map-js": "1.2.2",
+        "react": "19.3.0",
+        "react-dom": "19.3.0",
+        "typescript": "6.0.3"
+      }
+    },
+    "scrollRestoration": {
+      "passed": true,
+      "workshopPosition": 600,
+      "resumePosition": 400,
+      "routeChange": {
+        "path": "/resume",
+        "y": 0
+      },
+      "back": {
+        "path": "/work/workshop",
+        "y": 600
+      },
+      "forward": {
+        "path": "/resume",
+        "y": 400
+      },
+      "anchor": {
+        "path": "/",
+        "hash": "#work",
+        "top": -0.046875
+      }
+    }
+  },
+  "validationArtifactsExcludedFromPublication": [
+    "node_modules/",
+    "dist/"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 535,
+      "sha256": "2085866c1a05fb8df3fa0e3c971d44fdea928c77545dba9af6f8430c8ab87910"
+    },
+    {
+      "path": "PUBLICATION-MANIFEST.json",
+      "sha256": null,
+      "note": "Manifest itself; self-hash omitted"
+    },
+    {
+      "path": "PUBLICATION-REVIEW.md",
+      "bytes": 6006,
+      "sha256": "1c428a3c465846511c2bafeb10d25cff18dff9bf344e066ef88cac2c056b75de"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1365,
+      "sha256": "f678e7c428cf3e1815e4eb06f0de7aaad272ac134deb5414fbb5fa0a72784364"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 591,
+      "sha256": "cf80a7510234dcd5ae594b30b44682b8b45ba13c0fcb5bf8928bea143802aa1c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 850,
+      "sha256": "a7c13ae3743197642619bac76803ad0aae20f4e4979a3b670618d83a7dab364f"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 98298,
+      "sha256": "602dd02fc1ae8ecbb2cb76ffc205d2567aba06c997d3dcbf5420a20c1309a69d"
+    },
+    {
+      "path": "package.json",
+      "bytes": 752,
+      "sha256": "6a59c51cc93210367ffcd3bb2efc30893f39aaef711ef1c37707769490d17792"
+    },
+    {
+      "path": "public/card-ea-mini.png",
+      "bytes": 253293,
+      "sha256": "7db99e1625ab8ef70cad844d2fd71252f33f24928f094d213122b7d4b035a73b"
+    },
+    {
+      "path": "public/card-ea.png",
+      "bytes": 341223,
+      "sha256": "b91461a5a78d47d1535a598baa61b733d615c4725fe8c8f028eb948e0d7575f2"
+    },
+    {
+      "path": "public/card-maestro-mini.png",
+      "bytes": 190662,
+      "sha256": "80c29fdc276d57e6060978553dcb2a17b59fa2602e9febb215ec0fde3587209b"
+    },
+    {
+      "path": "public/card-maestro.png",
+      "bytes": 208970,
+      "sha256": "edc562730e1e9c3dfabe858c7a36b36536e1bf4a4a7062948bfb7d2058935a49"
+    },
+    {
+      "path": "public/card-workshop-mini.png",
+      "bytes": 133677,
+      "sha256": "57d13391f8219fedec830917fc00e6f51534c9f8c0f65fdee882256a3ed504b1"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 9522,
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "path": "public/hero-bg-gradient.png",
+      "bytes": 918368,
+      "sha256": "e921ee418e936d299eb1a922b222a333765d383e81ea138c8c9f7adc2032dca4"
+    },
+    {
+      "path": "public/hero-cl.png",
+      "bytes": 144715,
+      "sha256": "31332cc63971e3d51bf87d1843ada8225a89b2935cbef4c6d8ac9804e9217203"
+    },
+    {
+      "path": "public/hero-collage.jpg",
+      "bytes": 128310,
+      "sha256": "1d13940dca8aaf765fd7ecde25da8b39e492b4d71eeb3eb52c118e8c7b08b1b9"
+    },
+    {
+      "path": "public/hero-madden.png",
+      "bytes": 420832,
+      "sha256": "9711b0392d129524ea766d75520f59d5754211749a90a7281879d1f7d037c1f0"
+    },
+    {
+      "path": "public/hero-maestro.png",
+      "bytes": 100613,
+      "sha256": "285ecd2c5809111679c8c11aa4cd36aac045c2ffedc2578a6ccdc0bfed69a001"
+    },
+    {
+      "path": "public/hero-ncaa.png",
+      "bytes": 377189,
+      "sha256": "233c0da7f34e2d535499f9365670000814661b8f1f08a667f189af7c7ef21974"
+    },
+    {
+      "path": "public/hero-tw.png",
+      "bytes": 292217,
+      "sha256": "b73295250ecf93b0fd8e0b1f2269fa7b12f067e8d713f8a159f883fc1b5dbb8a"
+    },
+    {
+      "path": "public/images/ea/central-ui/2004/Madden_EditPlayer.png",
+      "bytes": 279579,
+      "sha256": "7d1af858eee3ae4ee6bc932f32fa398f9c01a34b5b318138201fb615ac2821ae"
+    },
+    {
+      "path": "public/images/ea/central-ui/2004/NASCAR_MyNASCAR.jpg",
+      "bytes": 87217,
+      "sha256": "874a46be94a2a9b822e3fdee8938fec1c407997d698721032d2f5b66670cbcfb"
+    },
+    {
+      "path": "public/images/ea/central-ui/2004/NCAA_EditPlayer.jpg",
+      "bytes": 59433,
+      "sha256": "b708ff0ad54834a6259be10d361765e984feb45800d3a0b09cfd4760252317ab"
+    },
+    {
+      "path": "public/images/ea/central-ui/2005/Madden_Roster.jpg",
+      "bytes": 274173,
+      "sha256": "fd723743e3d9235bdba3f37d7c36339c023e40f12919d69f5b930c2b4848af32"
+    },
+    {
+      "path": "public/images/ea/central-ui/2005/Madden_Settings.jpg",
+      "bytes": 317156,
+      "sha256": "e4482d11db68fffc12bf8c0e9ea6bfd64fb6162606e909e1755fd0ed5fd9f46c"
+    },
+    {
+      "path": "public/images/ea/central-ui/2005/NASCAR_Settings.jpg",
+      "bytes": 95973,
+      "sha256": "bb2bdba7845a165681fb701d7dee07f1730d3915dbed9997ecb769b74b49ca1f"
+    },
+    {
+      "path": "public/images/ea/central-ui/2005/NCAA_Roster.jpg",
+      "bytes": 47196,
+      "sha256": "ad9af7a97c3f951899d63c2b64dc76114a0ec15cb946b435656421dc99da10f2"
+    },
+    {
+      "path": "public/images/ea/central-ui/2009/Madden_FranchiseSetup.jpg",
+      "bytes": 89169,
+      "sha256": "ef3e5f222267fbc47f7f89ef7ec80dbe2cb38c7ef59e2cd8fbddd1b2a2a4895e"
+    },
+    {
+      "path": "public/images/ea/central-ui/2009/Madden_Topmenu.jpg",
+      "bytes": 125063,
+      "sha256": "32798449ea5802ded05c47847bb6ef6b45183a63257e23031d2aa84db396d014"
+    },
+    {
+      "path": "public/images/ea/central-ui/2009/NASCAR_DriverSelect.webp",
+      "bytes": 89250,
+      "sha256": "f7e486811bed5806253c22df39f61681cf1e659e54b943a767e6486185819524"
+    },
+    {
+      "path": "public/images/ea/central-ui/2009/NCAA_Recruiting..jpg",
+      "bytes": 138295,
+      "sha256": "0b75e3f9f9eff91c7bc205f94dc22caed96e34912928424642bfb59167a75588"
+    },
+    {
+      "path": "public/images/ea/central-ui/Central_UI_Architecture.png",
+      "bytes": 1143853,
+      "sha256": "cd34267119cab5c3022a2cfc348a0e66c1f930f1f86c78ce5c5a08d38a7a69f4"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2001/Create Player 1.jpg",
+      "bytes": 64034,
+      "sha256": "acb7897229bc6084cfc65f4c0736748fd83b16e3ae893828dfe8a8a0d6b42307"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2001/Ingame Player Stats.jpg",
+      "bytes": 56398,
+      "sha256": "535269d72da5b1cf2d259ba0a8b35c860cbfb4090cceb1af7b8e11afda8d1833"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2001/Penalty.jpg",
+      "bytes": 67817,
+      "sha256": "1daf13a7b9fef2d82e799b2668b2702e4f623fc1cf95d92c3b01a4716fe880d2"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2001/Press Start.jpg",
+      "bytes": 49771,
+      "sha256": "3c5b2a653140a79b605532a73d107ad44a9152d547963f73b986c498b7577a48"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2001/View Roster.jpg",
+      "bytes": 72520,
+      "sha256": "84091eea250b23563e4ffa6d6fa9886eebf9993cde417c1602c40bedd73ad9b0"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2010/Play Call 1.jpg",
+      "bytes": 90994,
+      "sha256": "bd1977e240780b76b0f13afd888f8241431cffbfaf8eda14e57d54be0bdef4bd"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2011/Franchise Main.jpg",
+      "bytes": 100815,
+      "sha256": "abc4a9e1962862674bb467bc423e9d723fc57b4745985b004cd80295d07b374f"
+    },
+    {
+      "path": "public/images/ea/madden/Madden 2011/View Rosters.jpg",
+      "bytes": 75861,
+      "sha256": "4a35e0c0cd2367db217c6c36b54e4d6019aab78e2d5c0b057df5c0b6e72939f5"
+    },
+    {
+      "path": "public/images/ea/madden/controllers.png",
+      "bytes": 190610,
+      "sha256": "2192b2ba05e6f4353c0c8a194ac4d909e3f8975ff3ef588c1bdb06a99723f3f2"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2002/640x480/Main Menu.jpg",
+      "bytes": 167351,
+      "sha256": "d68e0257da55715abd481c42c104daada475a6c6cc3f065fa516ea24f56c174e"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2002/640x480/Press Start.jpg",
+      "bytes": 116317,
+      "sha256": "a04b8628e6a3c9e6e129eddbc687b3a15b98b911f56ab4795b2d0f677aae10a5"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2002/640x480/Recruiting Map.jpg",
+      "bytes": 148506,
+      "sha256": "a37d6dd092b7aaf61892230d2ba4322d6b879ac366e5921ebe93f7cc80753542"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2002/640x480/Team Select.jpg",
+      "bytes": 164437,
+      "sha256": "164b7df4bfadf6d2d6a4fbd898ac733305314b91cd775a07759e63f5ddb50fb3"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2002/640x480/View Rosters.jpg",
+      "bytes": 161838,
+      "sha256": "1379531210c7e8903c978b2949977952050f3e6cc1f015d6d599b78faf649b38"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2003/640x480/Depth Chart.jpg",
+      "bytes": 166992,
+      "sha256": "0551a7db360ba3584b763ddfedc8442eceeb1538fccbb155c4e43b2cfbee6f65"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2006/854x480/Recruiting Map.jpg",
+      "bytes": 182392,
+      "sha256": "f4d11cab1b8b042e87c534442c0d89606e04dddbf140891ab677c58ba4848ad3"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2006/854x480/School Budgets.jpg",
+      "bytes": 162491,
+      "sha256": "d2b3e0a41c5367b16e421ebd60f2914f7ca5b090a08e34bdb7fd83e6043d32fa"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2007/854x480/Recruiting Board.jpg",
+      "bytes": 225032,
+      "sha256": "d1c3595bbbee03af80ddf6355386a808d8a4acbc7f3af4a72d66e94147ac7792"
+    },
+    {
+      "path": "public/images/ea/ncaa/NCAA 2007/854x480/Team Select.jpg",
+      "bytes": 234586,
+      "sha256": "72c6b2be726177f9005b24111b629212b55997bf5dee38ac5356ef05de740350"
+    },
+    {
+      "path": "public/images/ea/ncaa/TitleSafeUI.png",
+      "bytes": 1593775,
+      "sha256": "057544a8b76395df7678e93b9428b200a0ce67b7d8ce70e52205b75926e2d113"
+    },
+    {
+      "path": "public/images/ea/tiger-woods/Tiger_Woods_08/Screenshot 2026-04-23 123445.png",
+      "bytes": 1155994,
+      "sha256": "a8ee27b7adb45d9cbc2dd12b6015fc50c9aea027b97c7efd0e2ab8f4cc438396"
+    },
+    {
+      "path": "public/images/ea/tiger-woods/Tiger_Woods_08/tw_challenge.jpg",
+      "bytes": 335849,
+      "sha256": "73204e2b46802f23b4bfa33e41dccc5ce6e57fc53ce6145f4a94faa721b9775a"
+    },
+    {
+      "path": "public/images/ea/tiger-woods/Tiger_Woods_08/tw_confidence.jpg",
+      "bytes": 389160,
+      "sha256": "99a6f69a4458fc68ca742c9bf38e101be3d3b6a1f98743400954aec2a2889688"
+    },
+    {
+      "path": "public/images/maestro/enterprise/ConsolidatedLabelsPortal.png",
+      "bytes": 295581,
+      "sha256": "1d6dad1bdea74cc7f16cea652c797bfab6d67bfd6d4ab1a9258b474e006f1020"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/advanced-text-color.png",
+      "bytes": 188785,
+      "sha256": "e23611177945dd0ee3966243f0d1c1c4fea518e0e6961acea17e15bacd302f62"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/blank-template-editor.png",
+      "bytes": 104437,
+      "sha256": "33b887f344e7655446a77b91563bf9859d2ef2e7b1898c851fb2842f3fdb79ac"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/blank-templates-filtered-sheets.png",
+      "bytes": 178751,
+      "sha256": "7aed0c23c33fea0c81a02a3fe94fab7cf1e10b34e8b9b169f662873a2d823a39"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/blank-templates-ovals.png",
+      "bytes": 232232,
+      "sha256": "0c6b213a8c6c2dce2927bd7bedbb79350b1cd5147f4d019a34eb43bdc68a8de0"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/blank-templates-rolls.png",
+      "bytes": 140616,
+      "sha256": "06e88e2a8e97e499ace835242741078f8e3d736cc1510cd4b67a88f598466995"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/color-palette.png",
+      "bytes": 226332,
+      "sha256": "b60a6cb65e18f3f171e03297642fee12261c6255e9dbc876382f4509ece3b314"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/curved-text.png",
+      "bytes": 474729,
+      "sha256": "c24d0cabd7fe2baf2080ace61159fe6dd4f5f39fc0e12aa2f6cd2bf8a124ed14"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/gradient-editor.png",
+      "bytes": 186900,
+      "sha256": "6705c35411bbb39afddde4c612e10f81c768133fad6f8b4525eb536419e38364"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/inline-rich-text-editor.png",
+      "bytes": 110466,
+      "sha256": "bca7be5145dd1757bb2c6c3af070915421c8d796a580c008ae722fb07ddd7e2a"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/mail-merge-combined-fields.png",
+      "bytes": 123346,
+      "sha256": "1e63301a33f86b2aa0e2634e2c7e29cc9b2bdd4bab8ee402cba40d52e137c3b6"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/mail-merge-output-sheet.png",
+      "bytes": 100970,
+      "sha256": "22ab1fd81061df92f3059f004e884b052ffbe9a642962881b6a001def058d7a7"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/nutrition-label-generator.png",
+      "bytes": 131606,
+      "sha256": "3f8703deefdc7f68161cabcee719a42ab5b0b3ca182844e276b8cd0116837de3"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/pdf-print-sheet.png",
+      "bytes": 395380,
+      "sha256": "8dbb422e399b61825dcf691cc728312b4d1b6456baa28726adbd7c49d42e841a"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/predesigned-choose-product.png",
+      "bytes": 237123,
+      "sha256": "3a06ab12645f26ed59e4174e9b0d8579e1e89613bd69adfb653f262dbe074397"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/predesigned-editor.png",
+      "bytes": 229556,
+      "sha256": "6ff098b6f31fcb432f550c19515a22e3283b011d178578bb847db1f1c5da3ab9"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/predesigned-gallery.png",
+      "bytes": 243354,
+      "sha256": "22a424b28db2a20f69470433be888b5b609e23ceb99043480f3eb9b061b09752"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/professional-print-options.png",
+      "bytes": 117018,
+      "sha256": "374b75b37167e97946be6da91890fe125cb54c6c13477b4b4ea4390857a7e500"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/professional-print-review.png",
+      "bytes": 148248,
+      "sha256": "35b8c9f77f1989c6a8c88969675dfd01aaf0dd292f1a05e36942e412316f9217"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/qr-code-generator.png",
+      "bytes": 131159,
+      "sha256": "b1a556d8fb605f50a086d4742838d5bd59cc85eb11bfe3f236af70b4d7b1ebd0"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/saved-designs.png",
+      "bytes": 1440801,
+      "sha256": "ad5e52ba0528909291f1c36a97324f39b21daa26e9cc9c0830b14f60b3bc9470"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/shopping-cart.png",
+      "bytes": 41210,
+      "sha256": "531571e700f0b2183b210277ada7b57e40424d28348e87fe88b970ddee9d5e23"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/svg-design-canvas.png",
+      "bytes": 522971,
+      "sha256": "c643c162970b5dcb0fc400cd03302e5d37f84072363d218816225f360c7bd5fb"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/svg-shapes-selection.png",
+      "bytes": 180546,
+      "sha256": "c43550cfb26c29bfe6e3f35dfc6a7f368160edc77064dac1483e1b36cf1bcff3"
+    },
+    {
+      "path": "public/images/maestro/feature-pages/variable-barcode-fields.png",
+      "bytes": 102833,
+      "sha256": "98448722b4a49c1a7ea9b62d008ce57ce924599e11dd0f3169a46376dcbaf3e3"
+    },
+    {
+      "path": "public/images/maestro/history/FlashMLD_Canvas.jpg",
+      "bytes": 206259,
+      "sha256": "6ee9a3a3c4959efede9379b093cdd379a0c1a3fb4771fcd7cf6df763c01c9160"
+    },
+    {
+      "path": "public/images/maestro/history/FlashMLD_MailMergeBarcodes.jpg",
+      "bytes": 105687,
+      "sha256": "0e36a4317dd3cecdd3d595aa9a6e93ff4ba68ca58e993564ca23fe9d5f91c697"
+    },
+    {
+      "path": "public/images/maestro/history/HTML5MLD_Canvas.jpg",
+      "bytes": 143596,
+      "sha256": "fc501758035690a6ee680786b04ec867947a1b6a4e7b80e6c97404b3ccd45482"
+    },
+    {
+      "path": "public/images/maestro/history/HTML5MLD_MailMergeBarcodes.jpg",
+      "bytes": 197604,
+      "sha256": "482fa7e3540cb825cfc60227e84e843bd7345220b153c72084974f13dbb940fd"
+    },
+    {
+      "path": "public/images/maestro/mld_browsing.png",
+      "bytes": 302991,
+      "sha256": "4b8bcd62552263e0df8522fd193d1cdc5a154e621172e34bc30d8f68e6ea66a4"
+    },
+    {
+      "path": "public/images/maestro/mld_integrated-generators.png",
+      "bytes": 275789,
+      "sha256": "2f9a3e4acfd3d316c1b7ebc1198081c9093501310d27d3cc22aa75410962eda7"
+    },
+    {
+      "path": "public/images/maestro/mld_precision-printing.png",
+      "bytes": 346801,
+      "sha256": "3585bd835e7917933b4b89e833ecd123ecdca4e281e7ba7e306663cc8135d523"
+    },
+    {
+      "path": "public/images/maestro/mld_tools-properties.png",
+      "bytes": 358823,
+      "sha256": "bc9a9f502645a418b77cd7644b3d7458caf3ba373b4a8c5dbe99e55d39568920"
+    },
+    {
+      "path": "public/images/tech-icons/blazor.svg",
+      "bytes": 1353,
+      "sha256": "8a1e575e0c78de115404d7ffbbe597a1e2e5e793b6174ad23f98e910eb248d1f"
+    },
+    {
+      "path": "public/images/tech-icons/csharp.svg",
+      "bytes": 851,
+      "sha256": "7093478d0888e22a224b6fa832da6c9ffd14c433de8bd14aab0c1cb50925f3ee"
+    },
+    {
+      "path": "public/images/tech-icons/css3.svg",
+      "bytes": 778,
+      "sha256": "36b7d94b657d571d3f94042acbf6a4c86a5301a222f83f4b4583ad2acf6e297d"
+    },
+    {
+      "path": "public/images/tech-icons/dotnet.svg",
+      "bytes": 1147,
+      "sha256": "f222062c4f59b7864163bd54d24fafc40f1e2f2513672e50bc08e5025d73e4e5"
+    },
+    {
+      "path": "public/images/tech-icons/html5.svg",
+      "bytes": 607,
+      "sha256": "34826e5b3315daadf4fa15f723a3c1d5ba4a89277bfd94e22ac4d7d3d54338c5"
+    },
+    {
+      "path": "public/images/tech-icons/javascript.svg",
+      "bytes": 1144,
+      "sha256": "0656ff65fc8eeacda5c78d7f9ffe91ec1eb919db64f56e0b7dcd460af4bbd36c"
+    },
+    {
+      "path": "public/images/tech-icons/microsoftsqlserver.svg",
+      "bytes": 10803,
+      "sha256": "b49115d6dc952690790cea30383a41a7cc8923cd8b7dd070b2e3fb71e1a04d8d"
+    },
+    {
+      "path": "public/images/tech-icons/react.svg",
+      "bytes": 2387,
+      "sha256": "5825b649c8c04dec13ecf01d0182401bd0ec71789d2fa06224866d882cd1515f"
+    },
+    {
+      "path": "public/images/tech-icons/typescript.svg",
+      "bytes": 943,
+      "sha256": "c9191199f4049920c2fc19035b8a6664f37f4689fcd9e8434e786097e78863f0"
+    },
+    {
+      "path": "public/images/workshop/Blackjack/Blackjack_Hand.png",
+      "bytes": 764504,
+      "sha256": "8761d024eebf8bd651e0d185a003ad7a0844c0d59c070f1d59e0aed576675d08"
+    },
+    {
+      "path": "public/images/workshop/Blackjack/Blackjack_Settings.png",
+      "bytes": 210095,
+      "sha256": "5f98bfcce19e90d047f060e9d7e1b0360fa3457f4f1116d172b8d2483e3b092c"
+    },
+    {
+      "path": "public/images/workshop/ChickenManager/ChickenManager_FlockList.png",
+      "bytes": 1380218,
+      "sha256": "d2bc952c2f798afeda27c562213c3f697780a377d2b26b931f090a05c13e520e"
+    },
+    {
+      "path": "public/images/workshop/ChickenManager/ChickenManager_HealthLog.png",
+      "bytes": 1753078,
+      "sha256": "321fbe93d67abb868c955f5697d88c3bec404d9befbf11c9deb9d7cf3943418b"
+    },
+    {
+      "path": "public/images/workshop/ChickenManager/ChickenManager_MainPage.png",
+      "bytes": 1406989,
+      "sha256": "294aef198e1b48f53845e28915716460c8b2781c5a6cd1f7aece88b54eeee757"
+    },
+    {
+      "path": "public/images/workshop/ChickenManager/ChickenManager_Tasks&Maintenance.png",
+      "bytes": 1428237,
+      "sha256": "6d1b6b4f1ad09820d9257c17fcd95134f302cb4e4024f2648094374160167c22"
+    },
+    {
+      "path": "public/images/workshop/TaskManager/TaskManager_AddTaskModal.png",
+      "bytes": 1404950,
+      "sha256": "c0b27eb298515d963feddce7ddada4c0592113f1a447a3d00c3d94d9410577ef"
+    },
+    {
+      "path": "public/images/workshop/TaskManager/TaskManager_Main.png",
+      "bytes": 1475216,
+      "sha256": "109cfe6d61efc4cad501ccb38c49eee8dbe60f61bc4f9b57d94168e02b67ea26"
+    },
+    {
+      "path": "public/images/workshop/Weather/Weather_Almanac.png",
+      "bytes": 314888,
+      "sha256": "2c7f960d6f48d5bb1a31c542c5e9d537ff614af3e7b972c93205f820629e7f04"
+    },
+    {
+      "path": "public/images/workshop/Weather/Weather_Hourly.png",
+      "bytes": 195036,
+      "sha256": "6bd4feb67bc2a67d06e8234410f6a7eec927980119db0c1fee919a6828816ffd"
+    },
+    {
+      "path": "public/portrait.png",
+      "bytes": 571768,
+      "sha256": "3ededdc4707898cbda515fe223d15e06a4b3ded9d477bc34781612433ad45023"
+    },
+    {
+      "path": "src/App.css",
+      "bytes": 2891,
+      "sha256": "6e25a776d3e8102da5bacb3cb99f4a5fc662a2e01e6143140671a556d28c3d5c"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 2005,
+      "sha256": "967fe16be2f91a7e58448d4b294c2c801c4254d736504bc2f7bfa86ca150b022"
+    },
+    {
+      "path": "src/components/About.tsx",
+      "bytes": 1199,
+      "sha256": "5c4e81f3d5a7f7bfe9cad9d691aa6b9ad84298754b81b72bdcb1f3d412bcb837"
+    },
+    {
+      "path": "src/components/ExpandableScreenshot.tsx",
+      "bytes": 1836,
+      "sha256": "df86dd35ad57b237f53bd88bd35322b92a8351873b221282ff70f06216565eb3"
+    },
+    {
+      "path": "src/components/Experience.tsx",
+      "bytes": 1136,
+      "sha256": "1ab177ea04b54608f1b2f9d2d8373f7c6dd9ed4df3fc0ba7684689948deabbeb"
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "bytes": 2761,
+      "sha256": "dde32661b9b4c7a3c6a6f4df6b8195e03b513a53869afb14df8ecca47ce7ada7"
+    },
+    {
+      "path": "src/components/Header.tsx",
+      "bytes": 2325,
+      "sha256": "db490eadbda40bcf5f4caaaaa9aa317727e7cdf7b55ff925aaeb4ef0cb71acbb"
+    },
+    {
+      "path": "src/components/Hero.tsx",
+      "bytes": 1820,
+      "sha256": "2b056a09e4ada85219698d63eae171694cb433c0e8f361861441467ab2b6f1e9"
+    },
+    {
+      "path": "src/components/MaestroFeatureSection.tsx",
+      "bytes": 1189,
+      "sha256": "d2465c784e342d2888e32890407274a106a2411d644a9148129e264cfdd03a4a"
+    },
+    {
+      "path": "src/components/RouteScroll.tsx",
+      "bytes": 2402,
+      "sha256": "722734df63f55dc26eddc84c586d5d6ee8a6d4539be44dfb6613bcf2f329eb03"
+    },
+    {
+      "path": "src/components/Skills.tsx",
+      "bytes": 1347,
+      "sha256": "62ef731a0e0bfd5b19c785115792f6bdd5969f596a7c7be16c807a7bd234e193"
+    },
+    {
+      "path": "src/components/SmartImg.tsx",
+      "bytes": 474,
+      "sha256": "2d7692b9a367c0b56c60015e665fa3e5362f82a2e03fcf33bbf8cb4d877b3ced"
+    },
+    {
+      "path": "src/components/Work.tsx",
+      "bytes": 2402,
+      "sha256": "fc141b567e74511e84d0c38f556ce7ac9cedd0c62393a5d90a01be9df6717ead"
+    },
+    {
+      "path": "src/data.ts",
+      "bytes": 61708,
+      "sha256": "09c2b4b5c20029aacdc77570bdfa37ee3144c0e555e707729e516137071967d7"
+    },
+    {
+      "path": "src/index.css",
+      "bytes": 32184,
+      "sha256": "a2f1a5a1805c502814d8e622abe4fc0de02556b3f6d6209b9e16cc3f8a960e9a"
+    },
+    {
+      "path": "src/layouts/PortfolioLayout.tsx",
+      "bytes": 1060,
+      "sha256": "d22d399aa7637be7b330f48b5fc8f56c9f03b2edbd0c64114aa3d6bab4ce85e0"
+    },
+    {
+      "path": "src/maestroFeatureStudies.ts",
+      "bytes": 26523,
+      "sha256": "5d27aa65eef9598f6c6940febb4f27bc7458278135ab670b356981bf5186ba99"
+    },
+    {
+      "path": "src/maestroScreenshotSizes.ts",
+      "bytes": 1142,
+      "sha256": "9acdb78a8f72bdbae47df98f93c9a720c6beefa2566edffd9aebe547a8041abb"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 324,
+      "sha256": "8156f15ac4cfcfa83f2421b58997a3d4050004c818546e7a7d245dd110694b83"
+    },
+    {
+      "path": "src/pages/AboutPage.tsx",
+      "bytes": 228,
+      "sha256": "c757b0d65d8f25e55f79be8bfc735811a3a1cab345d3f097d0214558d59cdcdf"
+    },
+    {
+      "path": "src/pages/CentralUiCaseStudyPage.tsx",
+      "bytes": 4108,
+      "sha256": "4c8a0a2959daffd3b1b3bb0a68398272cf07a3a6fd767b061d1e44f583cdd03f"
+    },
+    {
+      "path": "src/pages/EaFranchisePage.tsx",
+      "bytes": 1087,
+      "sha256": "b8257c1c863f44dd4edecf8d06c35a17d859bd05d2bd4029ea8c7b68540fbdb1"
+    },
+    {
+      "path": "src/pages/HomePage.tsx",
+      "bytes": 264,
+      "sha256": "030fb70f2c85546c1d48ad8dbe3ec7755103bac704afb8dd37fe28574c2aeeec"
+    },
+    {
+      "path": "src/pages/MaddenCaseStudyPage.tsx",
+      "bytes": 4195,
+      "sha256": "e70f45ff044dca4f6d12dd3243afa7875dc89aeca00ec0ab0e667f22b111b623"
+    },
+    {
+      "path": "src/pages/MaestroFeaturePage.css",
+      "bytes": 4123,
+      "sha256": "02133e42aa80a78efaca2939b96f96e7b04c38975d9880993dc75fe9373f943f"
+    },
+    {
+      "path": "src/pages/MaestroFeaturePage.tsx",
+      "bytes": 3062,
+      "sha256": "a7a54a49046e3dc69d14c29928a84dbb16e4c9ce9a12ac7a5448b74fee228171"
+    },
+    {
+      "path": "src/pages/NcaaCaseStudyPage.tsx",
+      "bytes": 4642,
+      "sha256": "313eb53340ab1e4bd67e430458b8a6d97dccc6940503e0a20ca79aae8c5c409f"
+    },
+    {
+      "path": "src/pages/NotFoundPage.tsx",
+      "bytes": 302,
+      "sha256": "8d8982c7eafadec5c611e736929dc087c1cc819953278665e862b25ef1e8fd87"
+    },
+    {
+      "path": "src/pages/ResumePage.tsx",
+      "bytes": 229,
+      "sha256": "65512041d38fa893bbd0d6b2d549d2e2e82187b414872f02f75e0ce607870200"
+    },
+    {
+      "path": "src/pages/TigerWoodsCaseStudyPage.tsx",
+      "bytes": 2980,
+      "sha256": "d86999c1d8452c126bdb94a75347ff576da2e4cc7d92ca7cc4da3cfdfe4bc48c"
+    },
+    {
+      "path": "src/pages/WorkEaPage.tsx",
+      "bytes": 2064,
+      "sha256": "976ffb7fb3d4a211a02e1770c8e4854bb7b70bfc963482da729403f408253d8d"
+    },
+    {
+      "path": "src/pages/WorkMldPage.tsx",
+      "bytes": 6161,
+      "sha256": "4c6dbaf8bd4c54c2aba7e98dab9a1b80451d81f51dcbe9cc242a68ed75d0d9aa"
+    },
+    {
+      "path": "src/pages/WorkshopPage.css",
+      "bytes": 1230,
+      "sha256": "99484fc0f485a6cd3b0325fbb373f66b05b97763efc12a625688b014afe07950"
+    },
+    {
+      "path": "src/pages/WorkshopPage.tsx",
+      "bytes": 3090,
+      "sha256": "beed99cdcf64f796f364231d5de7b49d5e318b4662c7b5aeb362d92c14866e9f"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "tsconfig.app.json",
+      "bytes": 655,
+      "sha256": "8e5d12ba330e7d86409edec74b95451e0db22ee09b9426c94b5bf817571eddb0"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 119,
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "bytes": 558,
+      "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 161,
+      "sha256": "e1eefd0ed1639c88d1213884ef760516884db9e168190e223fee6b063ad3e088"
+    }
+  ],
+  "sourceSynchronization": {
+    "portraitProvenanceCommit": "4624c45",
+    "changedFiles": [
+      "src/components/About.tsx",
+      "src/index.css",
+      "public/portrait.png"
+    ],
+    "removedFiles": [
+      "public/portrait.jpg"
+    ],
+    "sourceUnchanged": true,
+    "developmentGitConfigurationUnchanged": true
+  },
+  "initialSnapshotExclusions": {
+    "counts": {
+      "publicCache": 3,
+      "publicBackup": 2,
+      "unusedPublic": 33,
+      "privateAssets": 10,
+      "unusedSourceAssets": 3,
+      "developmentDocs": 3,
+      "windowsCache": 1,
+      "localEditor": 1,
+      "gitDatabaseAndControl": 59,
+      "sourceDependencies": 6095,
+      "sourceBuild": 142
+    },
+    "total": 6352,
+    "note": "Counts recorded during initial snapshot preparation; not recalculated during synchronization"
+  },
+  "securityPatch": {
+    "modifiedFiles": [
+      "package.json",
+      "package-lock.json",
+      "src/components/RouteScroll.tsx",
+      "PUBLICATION-MANIFEST.json",
+      "PUBLICATION-REVIEW.md"
+    ],
+    "dependencyVersionChanges": [
+      "node_modules/source-map-js",
+      "node_modules/vite"
+    ],
+    "unrelatedUpgrades": false,
+    "gitInitialized": false,
+    "developmentRepositoryAccessed": false
+  }
+}

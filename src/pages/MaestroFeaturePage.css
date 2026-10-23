@@ -1,0 +1,51 @@
+.maestro-feature-study .maestro-study-focus {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--pf-line);
+  border-left: 4px solid var(--pf-violet);
+  border-radius: var(--pf-radius);
+  background: var(--pf-bg-card);
+}
+.maestro-feature-study .maestro-study-focus > p:last-child { max-width: 80ch; margin-bottom: 0; color: var(--pf-ink-muted); line-height: 1.7; }
+.maestro-feature-study .maestro-study-index { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin-top: 1.5rem; }
+.maestro-feature-study .maestro-study-index a { color: var(--pf-ink); font-size: 0.9rem; text-decoration: underline; text-underline-offset: 0.25em; padding: 0.6rem 0; }
+.maestro-feature-study .maestro-study-copy { max-width: 80ch; margin-bottom: 1.75rem; }
+.maestro-feature-study .maestro-study-copy > .pf-link { display: inline-block; padding: 0.5rem 0; }
+.maestro-feature-study .maestro-study-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; align-items: start; }
+.maestro-feature-study .maestro-study-gallery-single { grid-template-columns: minmax(0, 1fr); }
+.maestro-feature-study .screenshot-trigger { background: var(--pf-bg-light); }
+.maestro-feature-study figcaption small:empty, .maestro-feature-study .screenshot-dialog-content > small:empty { display: none; }
+.maestro-feature-study .screenshot-dialog img { max-width: none; max-height: none; }
+.maestro-feature-study .maestro-study-pipeline { margin: 2.5rem 0 0; padding: 1.5rem; background: var(--pf-bg-card); border: 1px solid var(--pf-line); border-radius: var(--pf-radius); }
+.maestro-feature-study .maestro-study-pipeline figcaption { font-weight: 600; margin-bottom: 1rem; }
+.maestro-feature-study .maestro-study-pipeline ol { display: flex; flex-wrap: wrap; gap: 1rem 2rem; padding-left: 1.25rem; margin: 0; color: var(--pf-ink-muted); line-height: 1.6; }
+.maestro-feature-study .maestro-study-pipeline li { padding-left: 0.25rem; }
+@media (min-width: 701px) {
+  .maestro-feature-study .maestro-study-gallery:not(.maestro-study-gallery-single) .screenshot-trigger { aspect-ratio: 16 / 10; }
+  .maestro-feature-study .maestro-study-gallery:not(.maestro-study-gallery-single) .screenshot-trigger img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+}
+@media (max-width: 700px) {
+  .maestro-feature-study .maestro-study-gallery { grid-template-columns: minmax(0, 1fr); }
+  .maestro-feature-study .maestro-study-pipeline ol { display: block; }
+  .maestro-feature-study .maestro-study-pipeline li + li { margin-top: 0.75rem; }
+}
+
+/* Browsing & Templates narrative */
+.maestro-browsing-study .maestro-browsing-subtitle { max-width: 45ch; font-size: clamp(1.2rem, 2.3vw, 1.55rem); line-height: 1.4; font-weight: 600; }
+.maestro-browsing-study .maestro-hero .ea-lead + .ea-lead { margin-top: 1rem; }
+.maestro-browsing-study .maestro-study-copy > p:not(.pf-kicker) { margin: 0 0 1rem; }
+
+/* Tools & Properties narrative */
+.maestro-tools-study .maestro-browsing-subtitle { max-width: 45ch; font-size: clamp(1.2rem, 2.3vw, 1.55rem); line-height: 1.4; font-weight: 600; }
+.maestro-tools-study .maestro-hero .ea-lead + .ea-lead { margin-top: 1rem; }
+.maestro-tools-study .maestro-study-copy > p:not(.pf-kicker) { margin: 0 0 1rem; }
+
+/* Precision Printing narrative and cart excerpt */
+.maestro-printing-study .maestro-browsing-subtitle { max-width: 45ch; font-size: clamp(1.2rem, 2.3vw, 1.55rem); line-height: 1.4; font-weight: 600; }
+.maestro-printing-study .maestro-hero .ea-lead + .ea-lead { margin-top: 1rem; }
+.maestro-printing-study .maestro-study-copy > p:not(.pf-kicker) { margin: 0 0 1rem; }
+.maestro-printing-study #commerce .maestro-study-gallery { width: 100%; max-width: 580px; margin-inline: 0; }
+
+/* Integrated Generators narrative */
+.maestro-generators-study .maestro-browsing-subtitle { max-width: 45ch; font-size: clamp(1.2rem, 2.3vw, 1.55rem); line-height: 1.4; font-weight: 600; }
+.maestro-generators-study .maestro-hero .ea-lead + .ea-lead { margin-top: 1rem; }
+.maestro-generators-study .maestro-study-copy > p:not(.pf-kicker) { margin: 0 0 1rem; }
