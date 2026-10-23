@@ -1,7 +1,7 @@
 export const profile = {
   name: "Michael A Nakfoor",
   shortName: "Michael Nakfoor",
-  title: "Web Developer · UI Designer",
+  title: "Software Engineer · UI Designer",
   headline: "I design and build software for",
   headlineAccent: "people.",
   lede: [

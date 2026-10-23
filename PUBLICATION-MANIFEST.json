@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "repository": "https://github.com/MichaelNakfoor/Portfolio",
   "copiedFileCount": 146,
   "generatedReviewFiles": 2,
-  "publicationFileCount": 148,
+  "publicationFileCount": 150,
   "requiredPublicAssetCount": 101,
   "gitHistoryIncluded": false,
   "metadataCleanup": [
@@ -213,7 +213,7 @@
     },
     "localNavigation": "passed",
     "qrPayload": "owner-reviewed and confirmed sanitized; approved",
-    "distFileCount": 104,
+    "distFileCount": 120,
     "dependencyAdvisories": {
       "affectedPackages": 0,
       "totalVulnerabilities": 0,
@@ -306,6 +306,13 @@
         "hash": "#work",
         "top": -0.046875
       }
+    },
+    "metadata": {
+      "staticHeads": 14,
+      "sitemapUrls": 14,
+      "canonicalAndOpenGraph": "passed",
+      "clientNavigation": "passed",
+      "unknownRoutes": "passed"
     }
   },
   "validationArtifactsExcludedFromPublication": [
@@ -325,8 +332,8 @@
     },
     {
       "path": "PUBLICATION-REVIEW.md",
-      "bytes": 6006,
-      "sha256": "1c428a3c465846511c2bafeb10d25cff18dff9bf344e066ef88cac2c056b75de"
+      "bytes": 4415,
+      "sha256": "a6d160ed542120f1dad7ea294a9bbda05edbf08471cf21d43adad786d8e1adab"
     },
     {
       "path": "README.md",
@@ -340,8 +347,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 850,
-      "sha256": "a7c13ae3743197642619bac76803ad0aae20f4e4979a3b670618d83a7dab364f"
+      "bytes": 965,
+      "sha256": "fed8783a67b773818fd8be42715223fd46782eccaf8fea17465e9b4144a04c5f"
     },
     {
       "path": "package-lock.json",
@@ -904,6 +911,11 @@
       "sha256": "d2465c784e342d2888e32890407274a106a2411d644a9148129e264cfdd03a4a"
     },
     {
+      "path": "src/components/PageMetadata.tsx",
+      "bytes": 1839,
+      "sha256": "3db8aa459c9c7b950586803e79ef705ebfc25cf18eb9eab3e086cc5bb4eef709"
+    },
+    {
       "path": "src/components/RouteScroll.tsx",
       "bytes": 2402,
       "sha256": "722734df63f55dc26eddc84c586d5d6ee8a6d4539be44dfb6613bcf2f329eb03"
@@ -925,8 +937,8 @@
     },
     {
       "path": "src/data.ts",
-      "bytes": 61708,
-      "sha256": "09c2b4b5c20029aacdc77570bdfa37ee3144c0e555e707729e516137071967d7"
+      "bytes": 61712,
+      "sha256": "93ac19293032ff13a55242017d1d101fdf707375a3eb1a499dbf92f0628b8dc9"
     },
     {
       "path": "src/index.css",
@@ -935,8 +947,8 @@
     },
     {
       "path": "src/layouts/PortfolioLayout.tsx",
-      "bytes": 1060,
-      "sha256": "d22d399aa7637be7b330f48b5fc8f56c9f03b2edbd0c64114aa3d6bab4ce85e0"
+      "bytes": 1138,
+      "sha256": "a58654c3af0b0e996c8fabea2ad5627d18a9090e8f668b6e606a26abdc37d10d"
     },
     {
       "path": "src/maestroFeatureStudies.ts",
@@ -1029,6 +1041,11 @@
       "sha256": "beed99cdcf64f796f364231d5de7b49d5e318b4662c7b5aeb362d92c14866e9f"
     },
     {
+      "path": "src/siteMetadata.ts",
+      "bytes": 5106,
+      "sha256": "f73098f56beafb85254f03f61b864ee34a5698704b0438504ff787084a85ffa9"
+    },
+    {
       "path": "src/vite-env.d.ts",
       "bytes": 38,
       "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
@@ -1050,8 +1067,8 @@
     },
     {
       "path": "vite.config.ts",
-      "bytes": 161,
-      "sha256": "e1eefd0ed1639c88d1213884ef760516884db9e168190e223fee6b063ad3e088"
+      "bytes": 1850,
+      "sha256": "8c2baaca170204b22e847610f5bf7d4c2d79011b8fd297da29e9408568946288"
     }
   ],
   "sourceSynchronization": {
@@ -1099,5 +1116,37 @@
     "unrelatedUpgrades": false,
     "gitInitialized": false,
     "developmentRepositoryAccessed": false
+  },
+  "developmentHistoryIncluded": false,
+  "publicationStatus": {
+    "independentGitHistory": true,
+    "initialPublicCommit": "df6d612889edfa1787db46aa2bcc41e46b665678"
+  },
+  "metadataRelease": {
+    "origin": "https://michaelnakfoor.com",
+    "homepageTitle": "Michael A Nakfoor — Software Engineer · UI Designer",
+    "description": "Michael A Nakfoor's software engineering and UI design portfolio: EA Sports interfaces, Maestro Label Designer, and full-stack applications.",
+    "sharingImage": "https://michaelnakfoor.com/hero-collage.jpg",
+    "routeCount": 14,
+    "routeSpecificStaticHeads": true,
+    "clientNavigationUpdates": true,
+    "unknownRoutes": "noindex; no canonical",
+    "generatedDiscoveryFiles": [
+      "robots.txt",
+      "sitemap.xml",
+      "404.html"
+    ],
+    "developmentCommit": "d404ba7bb4c0f659473ec5532f0ece25c6a4f54a",
+    "changedFiles": [
+      "index.html",
+      "vite.config.ts",
+      "src/layouts/PortfolioLayout.tsx",
+      "src/components/PageMetadata.tsx",
+      "src/siteMetadata.ts",
+      "src/data.ts",
+      "PUBLICATION-MANIFEST.json",
+      "PUBLICATION-REVIEW.md"
+    ],
+    "productionDeploymentVerified": false
   }
 }
