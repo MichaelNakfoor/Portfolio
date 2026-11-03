@@ -332,8 +332,8 @@
     },
     {
       "path": "PUBLICATION-REVIEW.md",
-      "bytes": 4415,
-      "sha256": "a6d160ed542120f1dad7ea294a9bbda05edbf08471cf21d43adad786d8e1adab"
+      "bytes": 6392,
+      "sha256": "811902fce9a041b4ba77f98b8e143098c05cd650449793aaf85c8450535de425"
     },
     {
       "path": "README.md",
@@ -347,8 +347,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 965,
-      "sha256": "fed8783a67b773818fd8be42715223fd46782eccaf8fea17465e9b4144a04c5f"
+      "bytes": 964,
+      "sha256": "028421c9faccc65139239cee2581b616d729687f8e00feaabb1f770a55f6b3be"
     },
     {
       "path": "package-lock.json",
@@ -386,9 +386,9 @@
       "sha256": "57d13391f8219fedec830917fc00e6f51534c9f8c0f65fdee882256a3ed504b1"
     },
     {
-      "path": "public/favicon.svg",
-      "bytes": 9522,
-      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+      "path": "public/favicon.ico",
+      "bytes": 8294,
+      "sha256": "e87d0edbbadeedc86f0f9f4adc58b745a6b41cb46e0a70e25438af6cf5c2c96d"
     },
     {
       "path": "public/hero-bg-gradient.png",
@@ -812,8 +812,8 @@
     },
     {
       "path": "public/images/workshop/Blackjack/Blackjack_Hand.png",
-      "bytes": 764504,
-      "sha256": "8761d024eebf8bd651e0d185a003ad7a0844c0d59c070f1d59e0aed576675d08"
+      "bytes": 978920,
+      "sha256": "98a23a550fe0171829ebf55438809381f7738e238fed61fd68565d3fea9d3030"
     },
     {
       "path": "public/images/workshop/Blackjack/Blackjack_Settings.png",
@@ -938,7 +938,7 @@
     {
       "path": "src/data.ts",
       "bytes": 61712,
-      "sha256": "93ac19293032ff13a55242017d1d101fdf707375a3eb1a499dbf92f0628b8dc9"
+      "sha256": "80314d714393fce362b95a082ffbf8a6b084d8fe3957fb4244d71d80b95a2c4f"
     },
     {
       "path": "src/index.css",
@@ -1032,13 +1032,13 @@
     },
     {
       "path": "src/pages/WorkshopPage.css",
-      "bytes": 1230,
-      "sha256": "99484fc0f485a6cd3b0325fbb373f66b05b97763efc12a625688b014afe07950"
+      "bytes": 1437,
+      "sha256": "e36fb39fc518b7350b1cde617a17799dfe953f2127acc155ecfa58a7be967be6"
     },
     {
       "path": "src/pages/WorkshopPage.tsx",
-      "bytes": 3090,
-      "sha256": "beed99cdcf64f796f364231d5de7b49d5e318b4662c7b5aeb362d92c14866e9f"
+      "bytes": 3154,
+      "sha256": "d05583f514b4b9c443384bcb2977c801a1956c10e31e0eb881c7c66be424451f"
     },
     {
       "path": "src/siteMetadata.ts",
@@ -1148,5 +1148,46 @@
       "PUBLICATION-REVIEW.md"
     ],
     "productionDeploymentVerified": false
+  },
+  "screenshotFaviconRelease": {
+    "date": "2026-11-03",
+    "developmentCommit": "39bac525d07a88a569fc85ebcb67a9502ec87242",
+    "publicBaseline": "3554cf43aaa5ff7878c243536acce509d6cf870f",
+    "changedFiles": [
+      "index.html",
+      "public/favicon.ico",
+      "public/favicon.svg",
+      "public/images/workshop/Blackjack/Blackjack_Hand.png",
+      "src/data.ts",
+      "src/pages/WorkshopPage.css",
+      "src/pages/WorkshopPage.tsx",
+      "PUBLICATION-MANIFEST.json",
+      "PUBLICATION-REVIEW.md"
+    ],
+    "preservedPublicAssets": 99,
+    "privacyReview": "Game UI and MN monogram reviewed; screenshot has no text or EXIF metadata",
+    "validation": {
+      "npmCi": "passed",
+      "typeCheckAndBuild": "passed",
+      "lint": "passed; zero warnings",
+      "audit": {
+        "total": 13,
+        "moderate": 12,
+        "high": 1,
+        "production": 0,
+        "dependenciesUnchanged": true
+      },
+      "browserQa": "not repeated"
+    },
+    "excluded": [
+      "favicon.ico (unused root duplicate)",
+      "backups",
+      "private assets",
+      "development history",
+      "node_modules",
+      "dist"
+    ],
+    "developmentUnchanged": true,
+    "cloudflareConfigurationUnchanged": true
   }
 }

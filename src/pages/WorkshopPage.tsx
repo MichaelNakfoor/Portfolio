@@ -20,7 +20,7 @@ export default function WorkshopPage() {
           <p className="pf-kicker">0{index + 1}</p>
           <h2 id={app.id}>{app.title}</h2>
           <div className="workshop-prose">{app.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
-          <div className="workshop-gallery">{app.screenshots.map((screenshot) => <ExpandableScreenshot key={screenshot.file} {...screenshot} src={`/images/workshop/${screenshot.file}`} />)}</div>
+          <div className={`workshop-gallery${app.id === "blackjack" ? " workshop-gallery-blackjack" : ""}`}>{app.screenshots.map((screenshot) => <ExpandableScreenshot key={screenshot.file} {...screenshot} src={`/images/workshop/${screenshot.file}`} />)}</div>
         </section>
       ))}
       <section className="workshop-closing" aria-labelledby="workshop-design">

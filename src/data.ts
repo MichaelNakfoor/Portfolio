@@ -714,7 +714,7 @@ export const workshopApplications: {
       "It's a different kind of programming challenge from the database-backed applications elsewhere in Workshop, and it was also an enjoyable excuse to bring an old project back to life."
     ],
     screenshots: [
-      { file: "Blackjack/Blackjack_Hand.png", title: "A hand in play", alt: "Blackjack game on a green felt table showing dealer and player cards, hand totals, a current bet, and hit, stand, split, and double-down controls", caption: "The working game with custom card and table visuals, hand totals, and betting controls.", width: 1541, height: 836 },
+      { file: "Blackjack/Blackjack_Hand.png", title: "A hand in play", alt: "Blackjack game on a green felt table showing dealer and player cards, hand totals, a current bet, and hit, stand, split, and double-down controls", caption: "The working game with custom card and table visuals, hand totals, and betting controls.", width: 1208, height: 808 },
       { file: "Blackjack/Blackjack_Settings.png", title: "Game configuration", alt: "Blackjack setup dialog with player name, number of decks, starting purse, and house rules", caption: "Player and game configuration before starting a hand.", width: 1560, height: 839 },
     ],
   },

@@ -41,3 +41,15 @@ Cloudflare Pages is already connected to public main. No deployment settings or 
 - src/data.ts
 - PUBLICATION-MANIFEST.json
 - PUBLICATION-REVIEW.md
+
+
+## Screenshot and favicon release (2026-11-03)
+
+- Source commit: 39bac525d07a88a569fc85ebcb67a9502ec87242; public baseline: 3554cf43aaa5ff7878c243536acce509d6cf870f.
+- Replaced only public/images/workshop/Blackjack/Blackjack_Hand.png (1208 x 808). Visual review shows game UI only, with no personal information, browser chrome, internal URLs, or credentials. PNG chunks contain no text or EXIF metadata.
+- Added public/favicon.ico, containing four embedded PNG frames (16, 32, 48, 64px); the largest frame was visually reviewed as an MN monogram. Removed the superseded public/favicon.svg and linked the ICO using image/x-icon. The unused duplicate root favicon.ico and backups were excluded.
+- Updated the screenshot dimensions in src/data.ts and equal-height, contain-fit Blackjack preview frames in src/pages/WorkshopPage.css and src/pages/WorkshopPage.tsx. Enlargement remains unchanged.
+- All 99 other public assets match their prior manifest hashes, preserving sanitized screenshots and the owner-approved QR content. Public GitHub links, official-site metadata, domain settings, dependency manifests, and independent Git history were preserved. Development and Cloudflare configuration were not modified.
+- npm ci passed. TypeScript and production build passed; ESLint passed with no warnings; git diff --check passed. Earlier browser QA above is historical and was not repeated for this release.
+- Current npm audit reports 13 development dependency findings (12 moderate, 1 high), involving minimatch and zod plus dependent tooling. npm audit --omit=dev reports zero vulnerabilities. These findings affect the unchanged lockfile; dependency remediation is outside this screenshot/favicon release. No audit fix was run.
+- Updated publication inventory hashes. Only the explicit website changes and publication records are included; no private files, backups, development history, dependencies, or build output are staged. Commit/push results are reported separately.
