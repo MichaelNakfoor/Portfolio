@@ -11,8 +11,8 @@ export const profile = {
   location: "Central Florida",
   email: "michael.a.nakfoor@gmail.com",
   phone: "407-310-4402",
-  github: "https://github.com/MichaelNakfoor",
-  githubLabel: "github.com/MichaelNakfoor",
+  github: "https://github.com/MichaelNakfoor/react-portfolio",
+  githubLabel: "github.com/MichaelNakfoor/react-portfolio",
   linkedin: "https://www.linkedin.com/in/mike-nakfoor-b204691",
   linkedinLabel: "linkedin.com/in/mike-nakfoor-b204691",
 };
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     ],
     image: "/card-ea-mini.png",
     imageAlt: "EA Sports work",
-    href: "/work/ea",
+    href: "/work/ea/",
     tags: [
       "C",
       "Madden NFL",
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     ],
     image: "/card-maestro-mini.png",
     imageAlt: "Maestro Label Designer",
-    href: "/work/maestro",
+    href: "/work/maestro/",
     tags: ["TypeScript", "SVG", "VB", ".NET", "PDF", "SQL", "C#", "Blazor", "JSON", "XML", "Jira", "Git", "Azure DevOps"],
     details: [
       "Owned frontend architecture, UI/UX, and implementation for complex browser-based editing workflows.",
@@ -104,7 +104,7 @@ export const projects: Project[] = [
     ],
     image: "/card-workshop-mini.png",
     imageAlt: "Independent Applications",
-    href: "/work/workshop",
+    href: "/work/workshop/",
     tags: ["Blazor", "C#", ".NET", "SQL", "API integration"],
     details: [],
     applications: ["Weather Station", "Task Manager", "Blackjack", "Chicken Flock Manager"],

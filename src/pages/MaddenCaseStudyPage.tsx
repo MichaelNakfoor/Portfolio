@@ -21,7 +21,7 @@ export default function MaddenCaseStudyPage() {
   return (
     <article className="inner-page case-page ea-page madden-page">
       <nav className="ea-breadcrumb" aria-label="Breadcrumb">
-        <Link to="/#work">Work</Link> / <Link to="/work/ea">EA Sports</Link> / <span aria-current="page">Madden NFL</span>
+        <Link to="/#work">Work</Link> / <Link to="/work/ea/">EA Sports</Link> / <span aria-current="page">Madden NFL</span>
       </nav>
       <header className="madden-hero">
         <div>
@@ -76,8 +76,8 @@ export default function MaddenCaseStudyPage() {
         </div>
       </section>
       <nav className="madden-next" aria-label="Case study navigation">
-        <Link className="pf-link" to="/work/ea">← EA Sports overview</Link>
-        <Link className="pf-link" to="/work/ea/ncaa-football">Next: NCAA Football →</Link>
+        <Link className="pf-link" to="/work/ea/">← EA Sports overview</Link>
+        <Link className="pf-link" to="/work/ea/ncaa-football/">Next: NCAA Football →</Link>
       </nav>
     </article>
   );

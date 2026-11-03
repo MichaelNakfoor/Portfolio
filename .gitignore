@@ -1,41 +1,25 @@
-# Dependencies and generated output
-node_modules/
-dist/
-dist-ssr/
-coverage/
-*.tsbuildinfo
-
-# Local configuration and environment files
-.env
-.env.*
-!.env.example
-*.local
-.vscode/
-.idea/
-.aws/
-
-# Private materials and temporary browser profiles
-private-assets/
-.tmp-*/
-playwright-report/
-test-results/
-
-# Logs and operating-system caches
-logs/
+# Logs
+logs
 *.log
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+private-assets/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-**/ModuleAnalysisCache
-
-# Private keys and certificate bundles
-*.pem
-*.key
-*.pfx
-*.p12
-
-# Backups and editor temporary files
-*.old
-*.bak
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 *.sw?

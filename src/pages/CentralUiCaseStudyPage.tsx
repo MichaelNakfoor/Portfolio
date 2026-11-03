@@ -5,7 +5,7 @@ import { centralUiCaseStudy as study, centralUiCycles } from "../data";
 export default function CentralUiCaseStudyPage() {
   return (
     <article className="inner-page case-page ea-page central-page">
-      <nav className="ea-breadcrumb" aria-label="Breadcrumb"><Link to="/#work">Work</Link> / <Link to="/work/ea">EA Sports</Link> / <span aria-current="page">Central UI</span></nav>
+      <nav className="ea-breadcrumb" aria-label="Breadcrumb"><Link to="/#work">Work</Link> / <Link to="/work/ea/">EA Sports</Link> / <span aria-current="page">Central UI</span></nav>
       <header className="central-hero">
         <p className="pf-kicker">EA Sports · Shared systems · 2004 / 2005 / 2009 development cycles</p>
         <h1>{study.title}</h1>
@@ -58,9 +58,9 @@ export default function CentralUiCaseStudyPage() {
       </section>
 
       <nav className="madden-next" aria-label="Related EA Sports work">
-        <Link className="pf-link" to="/work/ea">← EA Sports overview</Link>
-        <Link className="pf-link" to="/work/ea/madden-nfl">Madden NFL →</Link>
-        <Link className="pf-link" to="/work/ea/ncaa-football">NCAA Football →</Link>
+        <Link className="pf-link" to="/work/ea/">← EA Sports overview</Link>
+        <Link className="pf-link" to="/work/ea/madden-nfl/">Madden NFL →</Link>
+        <Link className="pf-link" to="/work/ea/ncaa-football/">NCAA Football →</Link>
       </nav>
     </article>
   );

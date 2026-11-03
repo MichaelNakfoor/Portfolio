@@ -29,7 +29,7 @@ export default function About({
             ))}
             {showSignature && <div className="pf-sign">{about.signature}</div>}
             {!fullBiography && (
-              <Link className="pf-link" to="/about">More About Me</Link>
+              <Link className="pf-link" to="/about/">More About Me</Link>
             )}
           </div>
         </div>

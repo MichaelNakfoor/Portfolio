@@ -16,7 +16,7 @@ export default function TigerWoodsCaseStudyPage() {
   return (
     <article className="inner-page case-page ea-page tiger-page">
       <nav className="ea-breadcrumb" aria-label="Breadcrumb">
-        <Link to="/#work">Work</Link> / <Link to="/work/ea">EA Sports</Link> / <span aria-current="page">Tiger Woods PGA Tour 08</span>
+        <Link to="/#work">Work</Link> / <Link to="/work/ea/">EA Sports</Link> / <span aria-current="page">Tiger Woods PGA Tour 08</span>
       </nav>
       <header className="tiger-hero">
         <div>
@@ -58,10 +58,10 @@ export default function TigerWoodsCaseStudyPage() {
       </section>
 
       <nav className="madden-next" aria-label="Related EA Sports work">
-        <Link className="pf-link" to="/work/ea">← EA Sports overview</Link>
-        <Link className="pf-link" to="/work/ea/central-ui">Central UI →</Link>
-        <Link className="pf-link" to="/work/ea/madden-nfl">Madden NFL →</Link>
-        <Link className="pf-link" to="/work/ea/ncaa-football">NCAA Football →</Link>
+        <Link className="pf-link" to="/work/ea/">← EA Sports overview</Link>
+        <Link className="pf-link" to="/work/ea/central-ui/">Central UI →</Link>
+        <Link className="pf-link" to="/work/ea/madden-nfl/">Madden NFL →</Link>
+        <Link className="pf-link" to="/work/ea/ncaa-football/">NCAA Football →</Link>
       </nav>
     </article>
   );

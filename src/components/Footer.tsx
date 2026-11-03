@@ -68,7 +68,7 @@ export default function Footer() {
           <span>
             © {new Date().getFullYear()} {profile.name}. All rights reserved.
           </span>
-          <span>Built with React, TypeScript &amp; CSS {" · "}<a className="pf-link" href="https://github.com/MichaelNakfoor/Portfolio" target="_blank" rel="noopener noreferrer">View source on GitHub</a></span>
+          <span>Built with React, TypeScript & CSS</span>
         </div>
       </div>
     </footer>

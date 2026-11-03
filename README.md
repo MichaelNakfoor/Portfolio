@@ -1,34 +1,75 @@
-# Michael Nakfoor — Portfolio
+# React + TypeScript + Vite
 
-A professional portfolio presenting software engineering, application design, and UI development work. The site is implemented with React, TypeScript, and Vite.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Portfolio areas
+Currently, two official plugins are available:
 
-- **EA Sports:** interface design and development for released game franchises.
-- **Maestro Label Designer:** browser editing tools, application workflows, and print production.
-- **Workshop:** personal applications built with C#, Blazor, .NET, and SQL Server.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-This repository contains the portfolio website and approved illustrative assets. It does not contain the source code of the applications or games presented in the case studies.
+## React Compiler
 
-## Local development
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Use a current Node.js LTS release supported by Vite, with npm installed.
+## Expanding the ESLint configuration
 
-```sh
-npm ci
-npm run dev
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+
 ```
 
-## Validation and production build
+You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
 
-```sh
-npm run lint
-npm run build
-npm run preview
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
+
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+
 ```
-
-The build includes TypeScript checking and writes the production site to `dist/`. Configure static hosting to serve `index.html` for client-side routes. Hosting under a subdirectory requires matching asset and router base configuration.
-
-## Snapshot inventory
-
-`PUBLICATION-MANIFEST.json` lists the publication source files, required assets, and their SHA-256 hashes. Dependencies, generated build output, private originals, and development history are excluded from the publication inventory.

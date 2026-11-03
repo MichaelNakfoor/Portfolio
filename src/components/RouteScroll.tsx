@@ -16,10 +16,9 @@ export default function RouteScroll() {
   }, []);
 
   useLayoutEffect(() => {
-    const savedPositions = positions.current;
     const pathChanged = previousPath.current !== pathname;
     previousPath.current = pathname;
-    const saved = navigationType === "POP" ? savedPositions.get(key) : undefined;
+    const saved = navigationType === "POP" ? positions.current.get(key) : undefined;
     let frame = 0;
     let attempts = 0;
     let targetId = hash.slice(1);
@@ -57,7 +56,7 @@ export default function RouteScroll() {
       window.removeEventListener("wheel", cancelRestore);
       window.removeEventListener("touchstart", cancelRestore);
       window.removeEventListener("keydown", cancelRestore);
-      savedPositions.set(key, { x: window.scrollX, y: window.scrollY });
+      positions.current.set(key, { x: window.scrollX, y: window.scrollY });
     };
   }, [key, pathname, hash, navigationType]);
 

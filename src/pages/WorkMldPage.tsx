@@ -52,7 +52,7 @@ export default function WorkMldPage() {
         <p className="maestro-prose">{study.features}</p>
         <div className="maestro-feature-grid">
           {features.map((feature, index) => (
-            <Link className="maestro-feature-card" key={feature.slug} to={`/work/maestro/${feature.slug}`}>
+            <Link className="maestro-feature-card" key={feature.slug} to={`/work/maestro/${feature.slug}/`}>
               <img src={`/images/maestro/${feature.image}`} alt="" width={feature.width} height={feature.height} loading="lazy" />
               <div><p className="pf-kicker">0{index + 1}</p><h3>{feature.title}</h3><p>{feature.summary}</p><span className="pf-link">Explore the feature →</span></div>
             </Link>
@@ -74,7 +74,7 @@ export default function WorkMldPage() {
           />
         </div>
       </section>
-      <nav className="madden-next" aria-label="Case study navigation"><Link className="pf-link" to="/#work">← Back to portfolio</Link><Link className="pf-link" to="/work/maestro/browsing">Explore browsing & templates →</Link></nav>
+      <nav className="madden-next" aria-label="Case study navigation"><Link className="pf-link" to="/#work">← Back to portfolio</Link><Link className="pf-link" to="/work/maestro/browsing/">Explore browsing & templates →</Link></nav>
     </article>
   );
 }

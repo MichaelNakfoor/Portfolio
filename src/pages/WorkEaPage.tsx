@@ -23,7 +23,7 @@ export default function WorkEaPage() {
         <h2 id="ea-franchises-title">Explore the EA Sports Work</h2>
         <div className="pf-work-grid ea-franchise-grid ea-overview-grid">
           {eaFranchises.map((franchise) => (
-            <Link className="pf-card ea-franchise-card" key={franchise.slug} to={`/work/ea/${franchise.slug}`}>
+            <Link className="pf-card ea-franchise-card" key={franchise.slug} to={`/work/ea/${franchise.slug}/`}>
               {franchise.image ? (
                 <div className="ea-franchise-media">
                   <img src={franchise.image} alt={franchise.imageAlt} loading="lazy" width="600" height="337" />

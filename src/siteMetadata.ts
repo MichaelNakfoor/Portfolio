@@ -26,7 +26,7 @@ export function metadataForPath(pathname: string) {
   return {
     title: page?.title ?? "Page not found — Michael A Nakfoor",
     description: page?.description ?? "The requested portfolio page could not be found.",
-    canonical: page ? siteOrigin + (path === "/" ? "/" : path) : undefined,
+    canonical: page ? siteOrigin + (path === "/" ? "/" : `${path}/`) : undefined,
     robots: page ? "index, follow" : "noindex, follow",
   };
 }

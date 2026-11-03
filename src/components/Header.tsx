@@ -32,7 +32,7 @@ export default function Header({ theme, onToggleTheme }: HeaderProps) {
               </a>
             </li>
             <li>
-              <NavLink to="/resume" onClick={close}>
+              <NavLink to="/resume/" onClick={close}>
                 Résumé
               </NavLink>
             </li>
