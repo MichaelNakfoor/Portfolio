@@ -1,3 +1,5 @@
+import { profile } from "./data.ts";
+
 export const siteOrigin = "https://michaelnakfoor.com";
 export const siteTitle = "Michael A Nakfoor — Software Engineer · UI Designer";
 export const sharingImage = `${siteOrigin}/hero-collage.jpg`;
@@ -33,8 +35,45 @@ export function metadataForPath(pathname: string) {
 
 const escapeAttribute = (value: string) => value.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 
+export const structuredDataScriptId = "portfolio-structured-data";
+
+export function structuredDataForPath(pathname: string) {
+  if ((pathname.replace(/\/+$/, "") || "/") !== "/") return undefined;
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": `${siteOrigin}/#person`,
+        name: profile.shortName,
+        alternateName: ["Mike Nakfoor", "Michael A. Nakfoor"],
+        url: `${siteOrigin}/`,
+        jobTitle: "Software Engineer and UI Designer",
+        sameAs: [profile.linkedin],
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${siteOrigin}/#website`,
+        url: `${siteOrigin}/`,
+        name: profile.name,
+        alternateName: [profile.shortName, "Mike Nakfoor", "Michael A. Nakfoor"],
+        author: { "@id": `${siteOrigin}/#person` },
+        about: { "@id": `${siteOrigin}/#person` },
+      },
+    ],
+  };
+}
+
+export function serializeStructuredData(pathname: string) {
+  const data = structuredDataForPath(pathname);
+  // Escape HTML delimiters so future profile values cannot end the script element.
+  return data ? JSON.stringify(data).replaceAll("<", "\\u003c") : undefined;
+}
+
 export function renderMetadata(pathname: string) {
   const page = metadataForPath(pathname);
+  const structuredData = serializeStructuredData(pathname);
   const tag = (key: string, value: string, property = false) => `<meta ${property ? "property" : "name"}="${key}" content="${escapeAttribute(value)}" />`;
   return [
     `<title>${escapeAttribute(page.title)}</title>`,
@@ -47,5 +86,6 @@ export function renderMetadata(pathname: string) {
     tag("twitter:card", "summary_large_image"), tag("twitter:title", page.title),
     tag("twitter:description", page.description), tag("twitter:image", sharingImage),
     tag("twitter:image:alt", sharingImageAlt),
+    ...(structuredData ? [`<script id="${structuredDataScriptId}" type="application/ld+json">${structuredData}</script>`] : []),
   ].join("\n    ");
 }

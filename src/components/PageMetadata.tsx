@@ -1,11 +1,24 @@
 import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { metadataForPath, sharingImage, sharingImageAlt } from "../siteMetadata";
+import { metadataForPath, serializeStructuredData, sharingImage, sharingImageAlt, structuredDataScriptId } from "../siteMetadata";
 
 export default function PageMetadata() {
   const { pathname } = useLocation();
   useLayoutEffect(() => {
     const page = metadataForPath(pathname);
+    const structuredData = serializeStructuredData(pathname);
+    let script = document.head.querySelector<HTMLScriptElement>(`#${structuredDataScriptId}`);
+    if (structuredData) {
+      if (!script) {
+        script = document.createElement("script");
+        script.id = structuredDataScriptId;
+        script.type = "application/ld+json";
+        document.head.append(script);
+      }
+      script.textContent = structuredData;
+    } else {
+      script?.remove();
+    }
     document.title = page.title;
     const setMeta = (key: string, value: string | undefined, property = false) => {
       const attribute = property ? "property" : "name";
