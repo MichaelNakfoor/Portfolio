@@ -11,6 +11,12 @@ export default function WorkshopPage() {
         <p className="pf-kicker">Independent work &middot; Application design &amp; full-stack development</p>
         <h1>Mike's Workshop</h1>
         <p className="workshop-subtitle">Personal Projects &amp; Full-Stack Development</p>
+        <div className="workshop-live">
+          <a className="pf-btn pf-btn-primary" href="https://workshop.michaelnakfoor.com" target="_blank" rel="noopener noreferrer" aria-describedby="workshop-live-description">
+            Launch Live Workshop <span aria-hidden="true">↗</span>
+          </a>
+          <p id="workshop-live-description">Play Blackjack, manage temporary demo tasks, explore Chicken Manager with fictional data, and view live weather forecasts. Opens in a new tab.</p>
+        </div>
         <p className="ea-lead">I've always enjoyed having projects of my own, and Workshop gives me a place to combine programming with things that interest me outside of work. It's a collection of applications I've designed and developed for everyday use, including weather forecasting, task management, backyard chicken keeping, and a blackjack game.</p>
         <p className="ea-lead">The applications are built with C# and Blazor on .NET, with SQL Server providing persistent storage where needed. They're also an opportunity to experiment with technologies, revisit older projects, and work through design and engineering problems without the constraints of a commercial development schedule.</p>
         <ul className="central-franchise-pills" aria-label="Technology stack">{["C#", ".NET", "Blazor", "SQL", "API integration", "UI design"].map((skill) => <li key={skill}>{skill}</li>)}</ul>

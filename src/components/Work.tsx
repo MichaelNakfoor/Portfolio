@@ -53,6 +53,11 @@ export default function Work() {
                     Explore {project.title} →
                   </Link>
                 )}
+                {project.id === "workshop" && (
+                  <a className="pf-link" href="https://workshop.michaelnakfoor.com" target="_blank" rel="noopener noreferrer" aria-label="Try Live Workshop (opens in a new tab)">
+                    Try Live Workshop <span aria-hidden="true">↗</span>
+                  </a>
+                )}
               </div>
             </article>
           ))}
