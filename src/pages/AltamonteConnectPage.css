@@ -1,0 +1,70 @@
+.altamonte-hero {
+  padding: 1rem 0 0;
+}
+
+.altamonte-page h1 {
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+  margin-bottom: 1rem;
+  text-wrap: balance;
+}
+
+.altamonte-subtitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.65rem);
+  font-weight: 600;
+}
+
+.altamonte-page > section {
+  margin-top: clamp(2.25rem, 4.5vw, 3.75rem);
+  padding-top: 2rem;
+  border-top: 1px solid var(--pf-line);
+}
+
+.altamonte-page > section > h2 {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+
+.altamonte-prose {
+  max-width: 80ch;
+  color: var(--pf-ink-muted);
+  line-height: 1.7;
+  text-wrap: pretty;
+}
+
+.altamonte-prose > * {
+  margin: 0 0 1rem;
+}
+
+.altamonte-design-gallery,
+.altamonte-phone-gallery {
+  display: grid;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.altamonte-design-gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.altamonte-phone-gallery {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.altamonte-localization-image {
+  max-width: 38rem;
+}
+
+@media (max-width: 760px) {
+  .altamonte-phone-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .altamonte-design-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .altamonte-design-gallery > :first-child {
+    width: min(100%, 24rem);
+  }
+}

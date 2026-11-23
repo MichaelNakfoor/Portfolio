@@ -12,6 +12,7 @@ import WorkMldPage from "./pages/WorkMldPage";
 import MaestroFeaturePage from "./pages/MaestroFeaturePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import WorkshopPage from "./pages/WorkshopPage";
+import AltamonteConnectPage from "./pages/AltamonteConnectPage";
 
 /**
  * Blazor → React map
@@ -35,6 +36,7 @@ export default function App() {
         <Route path="/work/ea/tiger-woods-pga-tour" element={<TigerWoodsCaseStudyPage />} />
         <Route path="/work/maestro" element={<WorkMldPage />} />
         <Route path="/work/workshop" element={<WorkshopPage />} />
+        <Route path="/work/altamonte-connect" element={<AltamonteConnectPage />} />
         <Route
           path="/work/maestro/:slug"
           element={<MaestroFeaturePage />}

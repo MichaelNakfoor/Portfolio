@@ -16,7 +16,7 @@ export default function Work() {
           I've worked on a fairly wide variety of software, from console games to commercial web applications. These projects offer a closer look at some of that work, including the design decisions, technical challenges, and occasional complications involved in bringing it all together.
         </p>
 
-        <div className="pf-work-grid">
+        <div className="pf-work-grid pf-featured-work-grid">
           {projects.map((project) => (
             <article className="pf-card" key={project.id}>
               {project.href && project.image ? <Link to={project.href} className="pf-card-media">

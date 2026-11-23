@@ -5,7 +5,7 @@ export const siteTitle = "Michael A Nakfoor — Software Engineer · UI Designer
 export const sharingImage = `${siteOrigin}/hero-collage.jpg`;
 export const sharingImageAlt = "Portfolio collage featuring EA Sports interfaces and Maestro Label Designer";
 
-export const publicPages: Record<string, { title: string; description: string }> = {
+export const publicPages: Record<string, { title: string; description: string; image?: string; imageAlt?: string }> = {
   "/": { title: siteTitle, description: "Michael A Nakfoor's software engineering and UI design portfolio: EA Sports interfaces, Maestro Label Designer, and full-stack applications." },
   "/about": { title: "About — Michael A Nakfoor", description: "Michael A Nakfoor's background in software engineering, UI design, game interfaces, browser-based design tools, and full-stack applications." },
   "/resume": { title: "Professional Experience — Michael A Nakfoor", description: "Software engineering, application design, and UI development leadership experience at Online Labels Group and Electronic Arts." },
@@ -20,6 +20,12 @@ export const publicPages: Record<string, { title: string; description: string }>
   "/work/maestro/generators": { title: "Maestro: Integrated Generators — Michael A Nakfoor", description: "Barcode, QR code, nutrition-label, and variable-data generation workflows in Maestro Label Designer." },
   "/work/maestro/printing": { title: "Maestro: Printing & Production — Michael A Nakfoor", description: "Connecting SVG designs to PDF rendering, home printing, and commercial ordering workflows in Maestro Label Designer." },
   "/work/workshop": { title: "Mike's Workshop — Michael A Nakfoor", description: "Personal full-stack applications built with C#, Blazor, .NET, and SQL Server for weather, tasks, chicken keeping, and blackjack." },
+  "/work/altamonte-connect": {
+    title: "Altamonte Connect — Michael A Nakfoor",
+    description: "A Figma case study for an independent bilingual civic-services app concept, covering resident issue reporting, city information, and reusable interface design.",
+    image: `${siteOrigin}/images/altamonte/figma01.png`,
+    imageAlt: "Altamonte Connect issue-reporting screens and prototype connections in Figma",
+  },
 };
 
 export function metadataForPath(pathname: string) {
@@ -28,6 +34,8 @@ export function metadataForPath(pathname: string) {
   return {
     title: page?.title ?? "Page not found — Michael A Nakfoor",
     description: page?.description ?? "The requested portfolio page could not be found.",
+    image: page?.image ?? sharingImage,
+    imageAlt: page?.imageAlt ?? sharingImageAlt,
     canonical: page ? siteOrigin + (path === "/" ? "/" : `${path}/`) : undefined,
     robots: page ? "index, follow" : "noindex, follow",
   };
@@ -82,10 +90,10 @@ export function renderMetadata(pathname: string) {
     tag("og:type", "website", true), tag("og:site_name", "Michael A Nakfoor", true),
     tag("og:title", page.title, true), tag("og:description", page.description, true),
     ...(page.canonical ? [tag("og:url", page.canonical, true)] : []),
-    tag("og:image", sharingImage, true), tag("og:image:alt", sharingImageAlt, true),
+    tag("og:image", page.image, true), tag("og:image:alt", page.imageAlt, true),
     tag("twitter:card", "summary_large_image"), tag("twitter:title", page.title),
-    tag("twitter:description", page.description), tag("twitter:image", sharingImage),
-    tag("twitter:image:alt", sharingImageAlt),
+    tag("twitter:description", page.description), tag("twitter:image", page.image),
+    tag("twitter:image:alt", page.imageAlt),
     ...(structuredData ? [`<script id="${structuredDataScriptId}" type="application/ld+json">${structuredData}</script>`] : []),
   ].join("\n    ");
 }

@@ -109,6 +109,20 @@ export const projects: Project[] = [
     details: [],
     applications: ["Weather Station", "Task Manager", "Blackjack", "Chicken Flock Manager"],
   },
+  {
+    id: "altamonte-connect",
+    title: "Altamonte Connect",
+    role: "Product Design & Interactive Prototyping",
+    summary: [
+      "Altamonte Connect is an independent civic-services app concept I designed in Figma. It brings together resident issue reporting, city services, and community information in one mobile experience with English and Spanish navigation.",
+      "I developed the interface and interactive prototype in Figma, working through resident reporting flows, navigation, reusable components, and English/Spanish localization. The project explores how a consistent design system can make a wide range of municipal services easier to navigate.",
+    ],
+    image: "/card-altamonte.png",
+    imageAlt: "Altamonte Connect resident home with English and Spanish options",
+    href: "/work/altamonte-connect/",
+    tags: ["Figma", "UI/UX Design", "Prototyping"],
+    details: [],
+  },
 ];
 
 export const skillGroups = [
@@ -160,6 +174,7 @@ export const stackPills = [
   { label: "React", icons: ["react"] },
   { label: "JavaScript", icons: ["javascript"] },
   { label: "HTML5 / CSS3", icons: ["html5", "css3"] },
+  { label: "Figma", icons: ["figma"] },
 ];
 
 export type Job = {

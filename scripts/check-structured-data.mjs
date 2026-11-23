@@ -8,7 +8,7 @@ const routes = [
   '/', '/about/', '/resume/', '/work/ea/', '/work/ea/madden-nfl/',
   '/work/ea/central-ui/', '/work/ea/ncaa-football/', '/work/ea/tiger-woods-pga-tour/',
   '/work/maestro/', '/work/maestro/browsing/', '/work/maestro/tools/',
-  '/work/maestro/generators/', '/work/maestro/printing/', '/work/workshop/',
+  '/work/maestro/generators/', '/work/maestro/printing/', '/work/workshop/', '/work/altamonte-connect/',
 ];
 const jsonLdScripts = (html) => [...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)];
 const homepage = read('index.html');

@@ -1,6 +1,6 @@
 import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { metadataForPath, serializeStructuredData, sharingImage, sharingImageAlt, structuredDataScriptId } from "../siteMetadata";
+import { metadataForPath, serializeStructuredData, structuredDataScriptId } from "../siteMetadata";
 
 export default function PageMetadata() {
   const { pathname } = useLocation();
@@ -34,13 +34,13 @@ export default function PageMetadata() {
     setMeta("og:title", page.title, true);
     setMeta("og:description", page.description, true);
     setMeta("og:url", page.canonical, true);
-    setMeta("og:image", sharingImage, true);
-    setMeta("og:image:alt", sharingImageAlt, true);
+    setMeta("og:image", page.image, true);
+    setMeta("og:image:alt", page.imageAlt, true);
     setMeta("twitter:card", "summary_large_image");
     setMeta("twitter:title", page.title);
     setMeta("twitter:description", page.description);
-    setMeta("twitter:image", sharingImage);
-    setMeta("twitter:image:alt", sharingImageAlt);
+    setMeta("twitter:image", page.image);
+    setMeta("twitter:image:alt", page.imageAlt);
     let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!page.canonical) { canonical?.remove(); return; }
     if (!canonical) { canonical = document.createElement("link"); canonical.rel = "canonical"; document.head.append(canonical); }
